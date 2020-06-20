@@ -1,0 +1,10 @@
+Dentro de nuestra carpeta del proyecto, vamos a ejecutar el siguiente comando:
+
+npm install bootstrap --save
+
+Con esto instalamos bootstrap en el proyecto, y nos aseguramos de que se guarde en las dependencias del package.json
+
+como Bootstrap depende de jquery y popper, instalamos estas dependencias tambien, de la misma forma como instalamos bootstrap
+
+En el index.html se especifica la forma de llamar las dependencias desde la carpeta de node_modules.
+
