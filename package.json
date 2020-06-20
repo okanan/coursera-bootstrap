@@ -1,7 +1,6 @@
 {
   "name": "Bootstrap_coursera",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/erazo23/coursera-bootstrap/issues"
   },
-  "homepage": "https://github.com/erazo23/coursera-bootstrap#readme"
+  "homepage": "https://github.com/erazo23/coursera-bootstrap#readme",
+  "description": ""
 }

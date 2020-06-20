@@ -1,0 +1,26 @@
+guia del curso de BOOTSTRAP.
+
+Instalando NodeJS.
+Para instalar node, basta con ejecutar el comando:
+ 
+sudo apt install nodejs
+
+Tambien es necesario instalar npm para gestionar los archivos y dependencias de node
+esto lo hacemos con:
+
+sudo apt install npm
+
+Para actualizar la version de node, primero debemos agregar una libreria de npm
+esta se conoce como "n" y la instalamos con el comando:
+
+sudo npm install -g n
+
+Luego, podemos actualizar node con el siguiente comando:
+
+sudo n stable
+
+Tambien podemos actualizar npm con:
+
+npm update npm -g
+
+
