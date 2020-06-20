@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,8 @@
     "url": "https://github.com/erazo23/coursera-bootstrap/issues"
   },
   "homepage": "https://github.com/erazo23/coursera-bootstrap#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }

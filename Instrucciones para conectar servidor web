@@ -1,0 +1,30 @@
+Trabajaremos con el servidor lite server..
+
+Para instalar la libreria del servidor, ejecutamos :
+
+npm install lite-server --save-dev
+
+Esta dependencia se agrega al archivo de configuracion PACKAGE.JSON
+
+podemos evidenciarlo ejecutando el comando
+
+CAT package.json
+
+el sitio oficial nos dice que tambien debemos agregar
+una tarea dentro de los scripts del package.json
+Por ende vamos a escribir la linea sugerida dentro de scripts.
+
+  "scripts": {
+    "dev": "lite-server"
+  },
+
+Scripts debe tener dentro la tarea dev, como se ve anteriormente.
+
+Ahora simplemente podemos ejecutarlo con el comando:
+
+npm run dev
+
+
+
+	
+
