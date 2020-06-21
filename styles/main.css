@@ -1,0 +1,49 @@
+.jumbotron{
+    text-align: center;
+    background-image: url(/img/645.jpg) ;
+    background-size: cover;
+    color: whitesmoke;
+    border-radius: 0;
+    height: 400px;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+#indicaciones div{
+    text-align: center;
+}
+
+.tarjetas{
+    align-items: center;
+    align-content: center;
+
+
+}
+
+.card-traje{
+    flex: 1 300px;
+    margin: 10px;
+    text-align: center;
+
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    color: rgb(78, 78, 78);
+    text-decoration: none;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+}
+
+footer a{
+    color:rgb(78, 78, 78); 
+
+}
+
+footer a:hover{
+    color: whitesmoke;
+    text-decoration: none;
+}
