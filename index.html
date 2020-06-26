@@ -5,11 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
         <title>SPA con Bootstrap.</title>
     </head>
     <body>
         <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-            <a class="navbar-brand" href=""> Vestidos en linea.</a>
+            <a class="navbar-brand" href=""> Diseñarte.</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" >
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -26,7 +27,7 @@
             <h1>Trajes en linea.</h1>
         </div>
         <div class="container">
-            <nav aria-label="breadcrumb">
+            <nav aria-label="breadcrumb" id="breadcrumb">
                 <ol class="breadcrumb">
                   <li class="breadcrumb-item active" aria-current="page">Inicio</li>
                 </ol>
@@ -127,9 +128,9 @@
                 </div>
                 <div class="col-sm-4">
                     <address>
-                        Bogota D.C.
-                        +57123456789
-                        contacto@trajeonline.com
+                        <p><span class="oi oi-location icon-position"></span></span>Bogota D.C.</p>
+                        <p><span class="oi oi-phone icon-position"></span>+57123456789</p>
+                        <p><span class="oi oi-inbox icon-position"></span>contacto@trajeonline.com</p>          
                     </address>
                 </div>
                 <div class="col-sm-4 d-flex flex-column align-items-end">
