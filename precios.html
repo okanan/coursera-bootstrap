@@ -8,6 +8,7 @@
         <title>SPA con Bootstrap.</title>
     </head>
     <body>
+        <!--____________________________________Barra de navegación _______________________________________________   -->
         <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
             <a class="navbar-brand" href=""> Diseñarte.</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" >
@@ -22,50 +23,91 @@
                 </ul>
             </div>
         </nav>
+                <!--____________________________________Jumbotron _______________________________________________   -->
         <div class="jumbotron">
             <h1>Trajes en linea.</h1>
         </div>
+                <!--____________________________________Breadcrumb _______________________________________________   -->
         <div class="container">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                  <li class="breadcrumb-item"><a href="./index.html">Inicio</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">Tabla de precios</li>
+                    <li class="breadcrumb-item"><a href="./index.html">Inicio</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Tabla de precios</li>
                 </ol>
-              </nav>
-              <hr>
-              <div class="table-responsive">
-                <table class="table table-striped">
-                    <thead class="thead-dark" >
-                        <th>Nombre</th>
-                        <th>Estado</th>
-                        <th>Precio</th>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Traje 1</td>
-                            <td>Disponible</td>
-                            <td>280.000</td>
-                        </tr>
-                        <tr>
-                         <td>Traje 2</td>
-                         <td>Alquilado</td>
-                         <td>300.000</td>
-                     </tr>
-                     <tr>
-                         <td>Traje 3</td>
-                         <td>Comprado</td>
-                         <td>260.000</td>
-                     </tr>
-                     <tr>
-                         <td></td>
-                         <td></td>
-                         <td></td>
-                     </tr>
-                    </tbody>
-               </table>
-              </div>
+            </nav>
+            <hr>
+<!--____________________________________Pestañas ___________________________________________   -->
+            <ul class="nav nav-tabs" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#precios" data-toggle="tab" role="tab" aria-controls="precios" >Precios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#formaspago" data-toggle="tab" role="tab" aria-controls="formaspago">Formas de pago</a>
+                </li>
+            </ul>
+<!--____________________________________Pestañas/contenido___________________________________   -->
+            <div class="tab-content" id="contenidoTabs">
+                <div class="tab-pane fade show active" role="tabpanel" id="precios">
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead class="thead-dark" >
+                                <th>Nombre</th>
+                                <th>Estado</th>
+                                <th>Precio</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Traje 1</td>
+                                    <td>Disponible</td>
+                                    <td>280.000</td>
+                                </tr>
+                                <tr>
+                                    <td>Traje 2</td>
+                                    <td>Alquilado</td>
+                                    <td>300.000</td>
+                                </tr>
+                                <tr>
+                                    <td>Traje 3</td>
+                                    <td>Comprado</td>
+                                    <td>260.000</td>
+                                </tr>
+                                <tr>
+                                    <td>Traje 4</td>
+                                    <td>Disponible</td>
+                                    <td>300.000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="tab-pane" id="formaspago" role="tabpanel">
+                    <div class="container">
+                        <div class="row">
+                            <div class="card col-4">
+                                <img src="./img/money.png" alt="Efectivo" class="card-img-top pagos">
+                                <div class="card-body">
+                                    <p>Paga cuando tengas tu traje en mano.</p>
+                                </div>
+                            </div>
+                            <div class="card col-4">
+                                <img src="./img/credit-card.png" alt="" class="card-img-top pagos">
+                                <div class="card-body">
+                                    <p>Depositanos a nuestra cuenta</p>
+                                </div>
+                            </div>
+                            <div class="card col-4">
+                                <img src="./img/PAYPAL.png" alt="" class="card-img-top pagos">
+                                <div class="card-body">
+                                    <p>A través de PayPal.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
         </div>
         <hr>
+                <!--____________________________________Footer__________________________________________________   -->
         <footer>
             <div class="row">
                 <div class="col-sm-4 d-flex flex-column align-items-start">
