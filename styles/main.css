@@ -47,6 +47,9 @@ footer{
     padding: auto;
     margin: auto;
     text-align: center;
+    bottom: 0;
+
+    width: 100%;
 }
 
 footer a{
@@ -88,4 +91,9 @@ footer a:hover{
     height: 100%;
     margin: auto;
     padding-top: 10px;
+}
+
+.contenido{
+    height: 600px;
+
 }
