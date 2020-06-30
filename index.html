@@ -59,8 +59,8 @@
                     <div class="card-body">
                         <h5 class="card-title">Traje 1</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-outline-primary">Alquilar</a>
-                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <a href="#" class="btn btn-outline-primary" data-toggle="modal" data-target="#alquilarModal">Alquilar</a>
+                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#comprarModal">Comprar</a>
                     </div>
                 </div>
                 <div class="card card-traje">
@@ -68,8 +68,8 @@
                     <div class="card-body">
                         <h5 class="card-title">Traje 2</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-outline-primary">Alquilar</a>
-                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <a href="#" class="btn btn-outline-primary" data-toggle="modal" data-target="#alquilarModal">Alquilar</a>
+                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#comprarModal">Comprar</a>
                     </div>
                 </div>
                 <div class="card card-traje">
@@ -77,8 +77,8 @@
                     <div class="card-body">
                         <h5 class="card-title">Traje 3</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-outline-primary">Alquilar</a>
-                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <a href="#" class="btn btn-outline-primary" data-toggle="modal" data-target="#alquilarModal">Alquilar</a>
+                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#comprarModal">Comprar</a>
                     </div>
                 </div>
                 <div class="card card-traje">
@@ -86,8 +86,8 @@
                     <div class="card-body">
                         <h5 class="card-title">Traje 4</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-outline-primary">Alquilar</a>
-                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <a href="#" class="btn btn-outline-primary" data-toggle="modal" data-target="#alquilarModal">Alquilar</a>
+                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#comprarModal">Comprar</a>
                     </div>
                 </div>
                 <div class="card card-traje">
@@ -95,8 +95,8 @@
                     <div class="card-body">
                         <h5 class="card-title">Traje 5</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-outline-primary">Alquilar</a>
-                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <a href="#" class="btn btn-outline-primary" data-toggle="modal" data-target="#alquilarModal">Alquilar</a>
+                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#comprarModal">Comprar</a>
                     </div>
                 </div>
                 <div class="card card-traje">
@@ -104,26 +104,8 @@
                     <div class="card-body">
                         <h5 class="card-title">Traje 6</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-outline-primary">Alquilar</a>
-                        <a href="#" class="btn btn-primary">Comprar</a>
-                    </div>
-                </div>
-                <div class="card card-traje">
-                    <img src="img/7.jpeg" class="card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title">Traje 7</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-outline-primary">Alquilar</a>
-                        <a href="#" class="btn btn-primary">Comprar</a>
-                    </div>
-                </div>
-                <div class="card card-traje">
-                    <img src="img/8.jpeg" class="card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title">Traje 8</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-outline-primary">Alquilar</a>
-                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <a href="#" class="btn btn-outline-primary" data-toggle="modal" data-target="#alquilarModal">Alquilar</a>
+                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#comprarModal">Comprar</a>
                     </div>
                 </div>
             </div>
@@ -149,7 +131,46 @@
                     <a href="#">Proyectos</a>
                 </div>
             </div>
-        </footer>        
+        </footer>
+        <div class="modal fade" id="alquilarModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="">Reservar</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                    Estas seguro que deseas alquilar? el costo por dia es de 80.000. Envianos la solicitud para ponernos en contacto contigo.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Atras</button>
+                        <button type="button" class="btn btn-success">Enviar solicitud</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="comprarModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="">Comprar</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                    Deseas añadirlo al carrito de compras?
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn btn-success">Aceptar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <script src="node_modules/jquery/dist/jquery.min.js"></script>
         <script src="node_modules/popper.js/dist/popper.min.js"></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
