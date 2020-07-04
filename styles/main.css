@@ -48,12 +48,11 @@ footer{
     margin: auto;
     text-align: center;
     bottom: 0;
-
     width: 100%;
 }
 
 footer a{
-    color:rgb(78, 78, 78); 
+    color:rgb(122, 122, 122); 
 
 }
 
@@ -77,9 +76,9 @@ footer a:hover{
 }
 
 .redes img{
-    margin: 15px;
-    width: 50px;
-    height: 50px;
+    margin: 10px;
+    width: 40px;
+    height: 40px;
 }
 
 .redes a{
@@ -87,10 +86,21 @@ footer a:hover{
     margin: auto;
 }
 
-.identidad a{
-    height: 100%;
+.contactoFooter{    
+    text-align: center;
     margin: auto;
-    padding-top: 10px;
+    padding: auto;
+    align-items: center;
+    padding-top: 14px;
+}
+
+address p{
+    margin: 0px;
+}
+
+.identidad a{
+    margin: auto;
+    text-align: center;
 }
 
 .contenido{
