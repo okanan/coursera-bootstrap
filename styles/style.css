@@ -1,5 +1,5 @@
 .jumbotron {
-  background-color: #1d3d5c;
+  background-color: #000000;
   text-align: center;
   color: whitesmoke;
   border-radius: 0;
@@ -31,7 +31,7 @@ body {
   text-align: center; }
 
 footer {
-  background-color: #1d3d5c;
+  background-color: #142b42;
   color: #7a7a7a;
   text-decoration: none;
   margin: auto;
