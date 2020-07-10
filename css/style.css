@@ -1,0 +1,85 @@
+.jumbotron {
+  background-color: #000000;
+  text-align: center;
+  color: whitesmoke;
+  border-radius: 0;
+  height: 600px;
+  padding-top: 63px;
+  width: 100%;
+  margin: 0; }
+
+.jumbotron img {
+  max-width: 82%;
+  max-height: 530px;
+  margin-left: auto;
+  margin-right: auto; }
+
+body {
+  background-color: white; }
+
+#indicaciones div {
+  text-align: center;
+  width: 100%; }
+
+.tarjetas {
+  align-items: center;
+  align-content: center; }
+
+.card-traje {
+  flex: 1 300px;
+  margin: 10px;
+  text-align: center; }
+
+footer {
+  background-color: #000000;
+  color: #7a7a7a;
+  text-decoration: none;
+  margin: auto;
+  padding: auto;
+  text-align: center;
+  bottom: 0;
+  width: 100%; }
+
+footer a {
+  color: #7a7a7a; }
+
+footer a:hover {
+  color: whitesmoke;
+  text-decoration: none; }
+
+.icon-position {
+  padding-right: 12px; }
+
+.pagos {
+  width: 64px;
+  margin: auto;
+  padding-top: 15px; }
+
+.card-body p {
+  text-align: center; }
+
+.redes img {
+  margin: 10px;
+  width: 40px;
+  height: 40px; }
+
+.redes a {
+  margin: auto;
+  padding: auto; }
+
+.contactoFooter {
+  text-align: center;
+  margin: auto;
+  padding: auto;
+  align-items: center;
+  padding-top: 14px; }
+
+address p {
+  margin: 0px; }
+
+.identidad a {
+  margin: auto;
+  text-align: center; }
+
+.contenido {
+  height: 600px; }
